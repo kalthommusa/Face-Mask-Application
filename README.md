@@ -8,9 +8,7 @@ Design, train, and test deep convolutional neural networks with transfer learnin
 
 When building Computer Vision applications, we deal with a lot of images, videos, and other assets that require storage. Image processing also requires significant computing power. The ultimate goal of every computer vision project is to have it deployed as part of an application and every application requires infrastructure to run.  
 
-[NumPy](http://www.numpy.org/)
-
-[CV Studio](https://vision.skills.network/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCV0101ENCoursera25797139-2022-01-01/)  is a Computer Vision learning tool for building, running, and managing AI Vision computer models and optimizing decisions anywhere on the IBM Cloud. It uses cutting-edge tools like Jupyter Notebook, Watson Machine Learning, Elyra, and more. 
+[CV Studio](https://vision.skills.network/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkCV0101ENCoursera25797139-2022-01-01/) is a Computer Vision learning tool for building, running, and managing AI Vision computer models and optimizing decisions anywhere on the IBM Cloud. It uses cutting-edge tools like Jupyter Notebook, Watson Machine Learning, Elyra, and more. 
 
 ----------------------------------------------------------
 
@@ -59,7 +57,10 @@ When building Computer Vision applications, we deal with a lot of images, videos
 
 # Notes & Results 
 
-By feeding the classifier with *** images, it gets the chance to learn and gather enough information about mask and no_mask data, and understand the relationship between input and output, and as a result,the accuracy of the classifier is  which is promacing and indicate a good performance and accurate predictions.
+By feeding the classifier with 360 images, it gets the chance to learn and gather enough information about mask and no_mask data, and understand the relationship between input and output, and as a result,the accuracy of the classifier is  which is promacing and indicate a good performance and accurate predictions.
+
+![](images/accuracy.png)
+
 
 I tested the app on several images, and the overall performance of the classifier seems very good.
 
@@ -67,62 +68,62 @@ Thus, no need to retrain the classifier nor gathering more data.
 
 However, the classifier failed to correctly classify the images below.
 
-correct no_mask1 prediction:
+correct mask1 prediction:
 
-![](images/correct-stop-1.png)
+![](images/prediction-1.png)
 
-correct no_mask2 prediction:
+correct mask2 prediction:
 
-![](images/correct-stop-2.png)
+![](images/prediction-2.png)
 
-correct no_mask3 prediction:
+correct mask3 prediction:
 
-![](images/correct-stop-3.png)
+![](images/prediction-3.png)
 
-correct no_mask4 prediction:
+correct mask4 prediction:
 
-![](images/correct-stop-4.png)
+![](images/prediction-4.png)
 
-correct no_mask5 prediction: 
+correct mask5 prediction: 
 
-![](images/correct-not-stop-1.png)
+![](images/prediction-5.png)
 
-correct no_mask6 prediction: 
+correct mask6 prediction: 
 
-![](images/correct-not-stop-2.png)
+![](images/prediction-6.png)
 
-correct no_mask7 prediction:
+correct mask7 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-7.png)
 
-correct no_mask8 prediction:
+correct mask8 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-8.png)
 
-correct no_mask9 prediction:
+correct mask9 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-9.png)
 
-correct no_mask10 prediction:
+correct mask10 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-10.png)
 
-correct no_mask11 prediction:
+correct mask11 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-11.png)
 
-correct no_mask12 prediction:
+correct mask12 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-12.png)
 
-correct no_mask13 prediction:
+correct mask13 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-13.png)
 
-correct no_mask14 prediction:
+correct mask14 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-14.png)
 
-correct no_mask15 prediction:
+correct mask15 prediction:
 
-![](images/correct-not-stop-4.png)
+![](images/prediction-15.png)
