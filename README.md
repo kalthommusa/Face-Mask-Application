@@ -16,7 +16,13 @@ When building Computer Vision applications, we deal with a lot of images, videos
 
   * ## 1- Built the dataset
 
-  After logging into CV Studio and creating a new project, I collected and uploaded 360 images divided into 180 images of people wearing masks and 180 images of people without masks on their faces.
+  When gathering data, my goal was to build a diverse database that contains images of people (with or without masks) of different nationalities, races, and with different styles.
+
+  ![](images/dataset-mask.png)
+
+  ![](images/dataset-no-mask.png)
+
+  I collected and uploaded 360 images divided into 180 images of people wearing masks and 180 images of people without masks on their faces.
 
   ![](images/upload-images.png)
 
@@ -24,7 +30,7 @@ When building Computer Vision applications, we deal with a lot of images, videos
 
   * ## 2- Annotate the dataset
 
-  Since I named both of my folders with the respective categories (mask, no_mask) when I uploaded my images in the previous upload step, the annotation happened automatically on CV Studio.     
+  Since I named both of my folders with the respective categories (mask, no_mask) when I uploaded my images in the previous upload step, the annotations happened automatically on CV Studio.     
 
   And here in the annotate section, I verified that my images are labeled as expected.
 
@@ -37,7 +43,6 @@ When building Computer Vision applications, we deal with a lot of images, videos
   I chose a Jupyter notebook as a "Training tool" and used the image annotations from the previous step to train a CNN model using transfer learning (using the `ResNet` pre-trained model as a fixed feature extractor) to perform a face mask classification task with PyTorch. 
 
   ![](images/creating-traning-run.png)
-  ![](images/results-after-training.png) 
 
   ----------------------------------------------------------
 
@@ -57,16 +62,14 @@ When building Computer Vision applications, we deal with a lot of images, videos
 
 # Notes & Results 
 
-By feeding the classifier with 360 images, it gets the chance to learn and gather enough information about mask and no_mask data, and understand the relationship between input and output, and as a result,the accuracy of the classifier is  which is promacing and indicate a good performance and accurate predictions.
+By feeding the classifier with 360 images, it has the opportunity to learn and gather enough information about the mask and no_mask data, and understand the relationship between input and output, as a result, the classifier's accuracy is promising and indicates excellent performance and accurate predictions.
 
 ![](images/accuracy.png)
 
 
-I tested the app on several images, and the overall performance of the classifier seems very good.
+I've tested the app on several images, and the overall performance of the classifier seems pretty excellent.
 
-Thus, no need to retrain the classifier nor gathering more data.
-
-However, the classifier failed to correctly classify the images below.
+Therefore, there is no need to retrain the classifier nor collect more data.
 
 correct mask1 prediction:
 
