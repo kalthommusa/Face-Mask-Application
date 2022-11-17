@@ -16,10 +16,14 @@ When building Computer Vision applications, we deal with a lot of images, videos
 
   * ## 1- Built the dataset
 
-  When gathering data, my goal was to build a diverse database that contains images of people (with or without masks) of different nationalities, races, and with different styles.
+  When gathering data, my goal was to build a diverse database that contains images of people (with or without masks) of different nationalities, races, and with different styles. And I made sure to include some pictures that reflect the Saudi identity (for both women and men)
 
+  Look at the database:
+
+  (mask category) 
   ![](images/dataset-mask.png)
 
+  (no-mask category)
   ![](images/dataset-no-mask.png)
 
   I collected and uploaded 360 images divided into 180 images of people wearing masks and 180 images of people without masks on their faces.
@@ -60,16 +64,14 @@ When building Computer Vision applications, we deal with a lot of images, videos
 
 ----------------------------------------------------------
 
-# Notes & Results 
+# Results & Observations 
 
-By feeding the classifier with 360 images, it has the opportunity to learn and gather enough information about the mask and no_mask data, and understand the relationship between input and output, as a result, the classifier's accuracy is promising and indicates excellent performance and accurate predictions.
+By feeding the classifier with 360 images, it has the opportunity to learn and gather enough information about the mask and no_mask data, and understand the relationship between input and output, as a result, the classifier's accuracy is 94% which is very high and promising, and indicates an excellent performance and accurate predictions.
 
 ![](images/accuracy.png)
 
 
 I've tested the app on several images, and the overall performance of the classifier seems pretty excellent.
-
-Therefore, there is no need to retrain the classifier nor collect more data.
 
 correct mask1 prediction:
 
@@ -130,3 +132,5 @@ correct mask14 prediction:
 correct mask15 prediction:
 
 ![](images/prediction-15.png)
+
+The model made correct predictions and succeeded in classifying all test images, therefore, there is no need to retrain the classifier or collect more data.
