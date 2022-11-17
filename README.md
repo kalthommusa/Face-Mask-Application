@@ -133,4 +133,4 @@ correct mask15 prediction:
 
 ![](images/prediction-15.png)
 
-The model made correct predictions and succeeded in classifying all test images, therefore, there is no need to retrain the classifier or collect more data.
+The model made correct predictions and succeeded in classifying all the test images, therefore, there is no need to retrain the classifier or collect more data.
